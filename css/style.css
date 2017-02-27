@@ -137,4 +137,8 @@ p, h2 {
 	height: 250px;
 	background: url(../imgs/car-small.png) no-repeat;
 }
+.first-line__big:hover, .first-line__small:hover, .second-line__small:hover {
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	transform: scale(1.01);
+}
 
