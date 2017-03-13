@@ -1,0 +1,144 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+@font-face {
+	font-family: 'HansKendrick';
+	src: url('../fonts/hanskendrick-regular-webfont.woff2') format('woff2'),
+	url('../fonts/hanskendrick-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+body {
+	background-color: #e2e7ec;
+	padding-top: 2%;
+}
+main {
+	max-width: 1120px;
+	min-height: 1105px;
+	margin-left: auto;
+	margin-right: auto;
+}
+p, h2 {
+	font-family: "HansKendrick", sans-serif;
+}
+.first-line, .second-line {
+	width: 100%;
+	min-height: 540px;
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+	flex-wrap: wrap;
+}
+.first-line__big {
+	flex-basis: 66.1%;
+	min-width: 360px;
+	height: 540px;
+	background-image: url(../imgs/big-car.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 405px;
+	padding-left: 4%;
+	margin-top: 20px;
+}
+.first-line__big p {
+	color: #818181;
+	font-size: 13px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.first-line__big h2 {
+	font-size: 30px;
+	font-weight: 700;
+	color: #fff;
+	margin-top: 20px;
+	max-width: 433px;
+	line-height: 36px;
+	text-transform: uppercase;
+}
+.first-line__small, .second-line__small {
+	width: 360px;
+	height: 540px;
+	margin-top: 20px;
+}
+.small__girl {
+	width: 100%;
+	height: 250px;
+	background: url(../imgs/girl.png) no-repeat;
+}
+.small__info {
+	background: #fff;
+	height: 290px;
+	padding: 30px 25px 25px 25px;
+}
+.small__info p {
+	color: #818181;
+	font-size: 13px;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+.small__info h2 {
+	color: #1d1d1d;
+	font-size: 22px;
+	font-weight: 900;
+	text-transform: uppercase;
+	margin-bottom: 70px;
+}
+.small__girls {
+	width: 100%;
+	height: 250px;
+	background: url(../imgs/girls.png) no-repeat;
+}
+.small__shoes {
+	width: 100%;
+	height: 250px;
+	background: url(../imgs/shoes.png) no-repeat;
+}
+.small__car {
+	width: 100%;
+	height: 250px;
+	background: url(../imgs/car-small.png) no-repeat;
+}
+.first-line__big:hover, .first-line__small:hover, .second-line__small:hover {
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	transform: scale(1.01);
+}
+
